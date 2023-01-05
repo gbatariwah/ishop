@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0",
+    "nuxt-windicss": "^2.6.0",
+    "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "@formkit/nuxt": "^1.0.0-beta.12",
+    "@nuxt/image": "^0.7.1",
+    "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
+    "@pinia/nuxt": "^0.4.6",
+    "@sidebase/nuxt-auth": "^0.3.0",
+    "daisyui": "^2.45.0",
+    "nuxt-icon": "^0.1.8",
+    "pinia": "^2.0.28",
+    "vue3-carousel": "^0.2.9"
+  }
+}
