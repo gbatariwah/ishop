@@ -59,18 +59,6 @@ const product = await $fetch(`https://dummyjson.com/products/${route.params.id}`
 
 let thumbnail = ref(product.thumbnail)
 
-const image = computed({
-  get() {
-    return thumbnail
-  },
-  set(newValue) {
-    return thumbnail.value = newValue
-  }
-})
-
-
-
-
 const cart = useCart()
 const wishList = useWishList()
 

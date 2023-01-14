@@ -33,6 +33,9 @@
               <p class="font-semibold mb-2">Price</p>
               <input type="range" min="0" max="100" value="40" class="range" />
             </div>
+            <div class="text-center">
+              <button class="btn w-full">Filter</button>
+            </div>
           </div>
           <div class="w-[790px] shrink-0">
             <div class="flex flex-wrap gap-6">
